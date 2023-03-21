@@ -60,7 +60,7 @@ function sendToML() {
   formData.append('file', file);
 
   var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'http://109.106.244.67:5000/predict', true);
+  xhr.open('POST', 'http://YOUR:IP/predict', true);
 
   xhr.onload = function () {
 
