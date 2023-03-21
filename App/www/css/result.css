@@ -1,0 +1,68 @@
+#show-result{
+    position: fixed;
+    background-color: rgb(33, 33, 33);
+    width: 90%;
+    height: 75vh;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    bottom: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#result-image{
+    height: 10rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+}
+
+#cevap{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#result-text{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: small;
+    word-spacing: .2rem;
+}
+
+#bottom-text{
+    width: 100%;
+    position: fixed;
+    display: block;
+    bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#okButton{
+    width: 10rem;
+    height: 3rem;
+    background-color: rgb(22, 22, 22);
+    border-radius: 1rem;
+    border: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#info-text{
+    text-align: center;
+    font-size: .5rem;
+    word-spacing: .2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+#important{
+    text-align: center;
+    font-size: .75rem;
+}

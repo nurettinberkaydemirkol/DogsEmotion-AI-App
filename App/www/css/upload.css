@@ -1,0 +1,58 @@
+#upload{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-box{
+    display: block;
+}
+
+.inputfile-4 + label {
+    color: #d3394c;
+}
+
+.inputfile-4:focus + label,
+.inputfile-4.has-focus + label,
+.inputfile-4 + label:hover {
+    color: #722040;
+}
+
+.inputfile-4 + label figure {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #d3394c;
+    display: block;
+    padding: 20px;
+    margin: 0 auto 10px;
+}
+
+.inputfile-4:focus + label figure,
+.inputfile-4.has-focus + label figure,
+.inputfile-4 + label:hover figure {
+    background-color: #722040;
+}
+
+.inputfile-4 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+
+#upload-button{
+    width: 115px;
+    height: 25px;
+    border: none;
+    background-color: #d3394c;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+
+.bottom-dog img{
+    height: 15rem;
+    position: absolute;
+    bottom: -2rem;
+    transform: translateX(-25%);
+}

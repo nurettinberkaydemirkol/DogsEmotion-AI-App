@@ -1,0 +1,22 @@
+#loading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#dot{
+    height: 5rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#run{
+    height: 15rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#loading p{
+    text-align: center;
+}
